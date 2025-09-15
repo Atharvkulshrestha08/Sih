@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduBot Pro - Smart Campus Assistant</title>
+    <meta name="description" content="Next-generation multilingual campus assistant with AI-powered conversations and seamless integrations.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <img src="./assets/img/logo.svg" alt="Logo" class="logo-img" width="28" height="28" />
+                    <span class="logo-text">EduBot Pro</span>
+                </div>
+                <div class="badge">SIH25104</div>
+            </div>
+            <div class="nav-menu">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#demo" class="nav-link">Live Demo</a>
+                <a href="#integrations" class="nav-link">Integrations</a>
+                <a href="#embed" class="nav-link">Embed</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="stars-layer"></div>
+            <div class="earth-container">
+                <div class="earth" id="earth">
+                    <img src="./file.svg" alt="Earth" class="earth-texture earth-svg">
+                    <div class="earth-glow"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Intelligent</span>
+                    <span class="title-line highlight">Multilingual</span>
+                    <span class="title-line">Campus Assistant</span>
+                </h1>
+                <p class="hero-description">
+                    Break language barriers with our AI-powered chatbot that understands Hindi, English, and regional languages. 
+                    Get instant answers to campus queries with context-aware conversations.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Availability</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Languages</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">99%</div>
+                        <div class="stat-label">Accuracy</div>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <button class="btn btn-primary" onclick="scrollToDemo()">
+                        <span>Try Live Demo</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn-secondary">
+                        <span>View Features</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose EduBot Pro?</h2>
+                <p class="section-subtitle">Built for modern campuses with cutting-edge technology</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">🌐</div>
+                    <h3 class="feature-title">Multilingual Intelligence</h3>
+                    <p class="feature-description">Understands and responds in Hindi, English, Tamil, Telugu, Bengali, and more regional languages with native accuracy.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">🧠</div>
+                    <h3 class="feature-title">Context-Aware Conversations</h3>
+                    <p class="feature-description">Remembers conversation history and provides personalized responses based on student context and previous interactions.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">Multi-Platform Integration</h3>
+                    <p class="feature-description">Seamlessly integrates with WhatsApp, Telegram, college websites, and mobile apps for maximum accessibility.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">🔒</div>
+                    <h3 class="feature-title">Privacy-First Design</h3>
+                    <p class="feature-description">Student data protection with local processing, encrypted logs, and GDPR-compliant privacy controls.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Lightning Fast</h3>
+                    <p class="feature-description">Sub-second response times with optimized AI models and edge computing for instant campus assistance.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">🎓</div>
+                    <h3 class="feature-title">Student-Friendly</h3>
+                    <p class="feature-description">Designed by students, for students. Easy to maintain and update by campus volunteers and tech teams.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="demo" id="demo">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience the Future</h2>
+                <p class="section-subtitle">Try our interactive demo and see the magic in action</p>
+            </div>
+            
+            <div class="demo-container">
+                <div class="chat-interface">
+                    <div class="chat-header">
+                        <div class="chat-avatar">
+                            <div class="avatar-icon">🤖</div>
+                            <div class="status-indicator online"></div>
+                        </div>
+                        <div class="chat-info">
+                            <h3 class="chat-name">EduBot Assistant</h3>
+                            <p class="chat-status">Online • Multilingual • Always Learning</p>
+                        </div>
+                        <div class="chat-actions">
+                            <button class="action-btn" id="clearChat" title="Clear conversation">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M3 6h18M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="quick-actions" id="quickActions">
+                        <button class="quick-btn" data-message="What are the fee payment deadlines?">
+                            <span class="quick-icon">💰</span>
+                            <span>Fees</span>
+                        </button>
+                        <button class="quick-btn" data-message="Tell me about scholarship opportunities">
+                            <span class="quick-icon">🎓</span>
+                            <span>Scholarships</span>
+                        </button>
+                        <button class="quick-btn" data-message="When are the next exams scheduled?">
+                            <span class="quick-icon">📅</span>
+                            <span>Exam Dates</span>
+                        </button>
+                        <button class="quick-btn" data-message="How do I apply for admission?">
+                            <span class="quick-icon">📝</span>
+                            <span>Admissions</span>
+                        </button>
+                        <button class="quick-btn" data-message="What are the hostel facilities?">
+                            <span class="quick-icon">🏠</span>
+                            <span>Hostel</span>
+                        </button>
+                    </div>
+                    
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message bot-message">
+                            <div class="message-avatar">🤖</div>
+                            <div class="message-content">
+                                <p>Hello! I'm your campus assistant. I can help you with fees, scholarships, exam dates, admissions, hostel information, and much more. How can I assist you today?</p>
+                                <div class="message-time">Just now</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="typing-indicator" id="typingIndicator" style="display: none;">
+                        <div class="typing-avatar">🤖</div>
+                        <div class="typing-content">
+                            <div class="typing-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <span class="typing-text">EduBot is typing...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-input-container">
+                        <form class="chat-form" id="chatForm">
+                            <div class="input-wrapper">
+                                <input type="text" id="messageInput" placeholder="Type your message in any language..." autocomplete="off">
+                                <button type="submit" class="send-btn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="demo-info">
+                    <h3>Real-time AI Conversations</h3>
+                    <ul class="demo-features">
+                        <li>✨ Natural language understanding</li>
+                        <li>🌍 Multilingual support</li>
+                        <li>💬 Context-aware responses</li>
+                        <li>⚡ Instant replies</li>
+                        <li>🔒 Privacy protected</li>
+                    </ul>
+                    <div class="demo-note">
+                        <strong>Note:</strong> This is a frontend demo. Connect to Dialogflow for production use.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integrations Section -->
+    <section class="integrations" id="integrations">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Seamless Integrations</h2>
+                <p class="section-subtitle">Connect with your favorite platforms</p>
+            </div>
+            
+            <div class="integrations-grid">
+                <div class="integration-card">
+                    <div class="integration-icon">💬</div>
+                    <h3>WhatsApp Business</h3>
+                    <p>Reach students where they are. Integrate with Twilio WhatsApp API for instant messaging.</p>
+                    <div class="integration-status">
+                        <span class="status-badge ready">Ready to Deploy</span>
+                    </div>
+                </div>
+                
+                <div class="integration-card">
+                    <div class="integration-icon">📱</div>
+                    <h3>Telegram Bot</h3>
+                    <p>Create a Telegram bot that students can access from anywhere with BotFather integration.</p>
+                    <div class="integration-status">
+                        <span class="status-badge ready">Ready to Deploy</span>
+                    </div>
+                </div>
+                
+                <div class="integration-card">
+                    <div class="integration-icon">🌐</div>
+                    <h3>College Website</h3>
+                    <p>Embed directly into your college website with our responsive web widget.</p>
+                    <div class="integration-status">
+                        <span class="status-badge ready">Ready to Deploy</span>
+                    </div>
+                </div>
+                
+                <div class="integration-card">
+                    <div class="integration-icon">📧</div>
+                    <h3>Email Support</h3>
+                    <p>Automated email responses for complex queries with human escalation when needed.</p>
+                    <div class="integration-status">
+                        <span class="status-badge coming">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Embed Section -->
+    <section class="embed" id="embed">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Easy Integration</h2>
+                <p class="section-subtitle">Get started in minutes with our simple setup</p>
+            </div>
+            
+            <div class="embed-container">
+                <div class="embed-demo" id="embedDemo">
+                    <div class="embed-placeholder">
+                        <div class="placeholder-icon">🔧</div>
+                        <h3>Dialogflow Integration</h3>
+                        <p>Configure your Dialogflow agent in <code>app.js</code> to see the live bot here.</p>
+                        <div class="code-snippet">
+                            <pre><code>const DF = {
+    enabled: true,
+    agentId: 'your-project-id',
+    languageCode: 'en',
+    apiLocation: 'global'
+};</code></pre>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="embed-instructions">
+                    <h3>Quick Setup Guide</h3>
+                    <ol class="setup-steps">
+                        <li>Create a Dialogflow CX agent</li>
+                        <li>Configure intents for campus queries</li>
+                        <li>Update the configuration in <code>app.js</code></li>
+                        <li>Deploy and test your integration</li>
+                    </ol>
+                    <div class="setup-benefits">
+                        <h4>What you get:</h4>
+                        <ul>
+                            <li>✅ Production-ready chatbot</li>
+                            <li>✅ Analytics and insights</li>
+                            <li>✅ Easy content management</li>
+                            <li>✅ Scalable infrastructure</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">🤖</div>
+                        <span class="logo-text">EduBot Pro</span>
+                    </div>
+                    <p>Empowering campuses with intelligent conversations.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Product</h4>
+                        <a href="#features">Features</a>
+                        <a href="#demo">Demo</a>
+                        <a href="#integrations">Integrations</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>Support</h4>
+                        <a href="#embed">Documentation</a>
+                        <a href="#">Help Center</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>Organization</h4>
+                        <a href="#">Government of Rajasthan</a>
+                        <a href="#">Directorate of Technical Education</a>
+                        <a href="#">Smart India Hackathon</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 EduBot Pro. Built for Smart Education (SIH25104).</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Configuration -->
+    <script src="./assets/js/config.js"></script>
+    <!-- Main Application -->
+    <script src="./app.js"></script>
+    <!-- Additional Chat Features -->
+    <script src="./assets/js/chat.js"></script>
+</body>
+</html>
