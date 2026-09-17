@@ -1,3 +1,9 @@
+> ### 🛡️ Author & Original Creator
+> **Atharv Kulshrestha** — [@Atharvkulshrestha08](https://github.com/Atharvkulshrestha08)  
+> *This repository and its codebase are the original work of Atharv Kulshrestha. All rights reserved.*
+
+---
+
 # EduBot Pro - Smart Campus Assistant
 
 A complete full-stack multilingual campus assistant chatbot with modern frontend and intelligent backend. Built for Smart India Hackathon (SIH25104) with cutting-edge design principles and AI-powered conversations.
